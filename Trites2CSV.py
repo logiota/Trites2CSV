@@ -1,6 +1,3 @@
-
-
-
 tern=['A','B','C','D','E','F','G','H','I','J','K',        'L',         'M',  'N',        'O','P', 'Q',    'R',  'S',   'T', 'U',       'V',         'W',    'X',                           'Y', 'Z', '9']
 data=['1','2','3','4','5','6','7','8','9','.','Timestamp','Longi/Lati','PPM','Turbidity','0','PH','Error','\n','Speed','C','uSiemens','Volatility','Watts','Use ternary alphabet until 99','?', '?', ',']
 
@@ -18,8 +15,8 @@ if ',' in (inputs)
 	print(outputs)
 
 
-else:""" # autodetection of data input for translation to ternary
-print ('input looks like ternary\n')
+else: # autodetection of data input for translation to ternary
+"""
 
 outputs = 'Data: ' 
 
@@ -27,7 +24,7 @@ for character in inputs:
 	if character == 'X'	:						#make an exception for charaters following X
 		while (character != '9'):
 				outputs += character			#instead output the original alphabet
-	else
+	else :
 		outputs += (data[tern.index(character)])#translate ternary string to data
 
 print(outputs)

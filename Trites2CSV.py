@@ -24,9 +24,9 @@ print ('input looks like ternary\n')
 outputs = 'Data: ' 
 
 for character in inputs:					
-	if character == 'X'	:						#make an exception for charaters flollowing
+	if character == 'X'	:						#make an exception for charaters following X
 		while (character != '9'):
-				outputs += character
+				outputs += character			#instead output the original alphabet
 	else
 		outputs += (data[tern.index(character)])#translate ternary string to data
 

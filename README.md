@@ -1,5 +1,5 @@
 # Trytes2CSV
-Translate trytes directly to alphanumeric characters and keep the trytes somewhat readable directly.
+Translate trytes directly to alphanumeric characters and keep the trytes somewhat readable directly in a tangle explorer.
 
 This will help run projects on small devices doing datalogging by reducing the pow for larger than 440 Bytes of data.
 

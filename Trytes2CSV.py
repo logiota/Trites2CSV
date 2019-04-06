@@ -22,11 +22,11 @@ else: # autodetection of data input for translation to ternary
 outputs = 'Data: ' 
 
 for character in inputs:					
-	if character == 'X'	:				#make an exception for charaters following X
+	"""if character == 'X'	:				#make an exception for charaters following X
 		while (character != '9'):
 				outputs += character		#instead output the original alphabet
 				if 				#need of breaking while loop to avoid getting stuck here
-	else :
+	else :"""
 		outputs += (data[tern.index(character)])	#translate ternary string to data
 
 print(outputs)

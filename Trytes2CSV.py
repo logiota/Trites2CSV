@@ -3,7 +3,7 @@ data=['1','2','3','4','5','6','7','8','9','.','Timestamp','Longi/Lati','PPM','Tu
 
 
 
-inputs = input("Paste ternary or data for conversion(checks for','): ")
+inputs = input("Paste ternary or data for conversion(checks for','): ") #ask for input and get input
 """
 if ',' in (inputs)
 	print 'input looks like data\n'
@@ -16,17 +16,17 @@ if ',' in (inputs)
 
 
 else: # autodetection of data input for translation to ternary
-#XTEXT9XAS9XTEXT9ABCDEFJABC
+#XTEXT9XAS9XTEXT9ABCDEFJABCx
 """
 
 outputs = 'Data: ' 
 
 for character in inputs:					
 	"""if character == 'X'	:				#make an exception for charaters following X
-		while (character != '9'):
-				outputs += character		#instead output the original alphabet
+		while (character != '9'):			#this does not seem to break the for loop after seeing a 9
+				outputs += character		#instead output the original A-Z trytes
 				if 				#need of breaking while loop to avoid getting stuck here
 	else :"""
-		outputs += (data[tern.index(character)])	#translate ternary string to data
+	outputs += (data[tern.index(character)])	#translate ternary string to data
 
 print(outputs)

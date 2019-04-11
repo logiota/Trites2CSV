@@ -27,7 +27,7 @@ for character in inputs:							#make an exception for charaters following X
 			while (character != '9'):			
 				outputs += character			#output the original A-Z trytes
 													#need of breaking while loop to avoid getting stuck here
-				break
+			break
 	else :
 	outputs += (data[tern.index(character)])	#translate ternary string to data
 

@@ -21,13 +21,14 @@ else: # autodetection of data input for translation to ternary
 
 outputs = 'Data: ' 
 
-for character in inputs:						#make an exception for charaters following X
-	"""if character == 'X'	:
-		for character in inputs					
-			while (character != '9'):				#this does not seem to break the for loop after seeing a 9
-				outputs += character					#instead output the original A-Z trytes
-																			#need of breaking while loop to avoid getting stuck here
-	else :"""
+for character in inputs:							#make an exception for charaters following X
+	if character == 'X'	:
+		for character in inputs:			
+			while (character != '9'):			
+				outputs += character			#output the original A-Z trytes
+													#need of breaking while loop to avoid getting stuck here
+				break
+	else :
 	outputs += (data[tern.index(character)])	#translate ternary string to data
 
 print(outputs)

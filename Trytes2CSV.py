@@ -5,7 +5,7 @@ data=['1','2','3','4','5','6','7','8','9','.','Timestamp','Longi/Lati','PPM','Tu
 
 inputs = input("Paste ternary or data for conversion(checks for','): ") #ask for input and get input
 """
-if ',' in (inputs)
+if ',' in (inputs) #look for ternary 
 	print 'input looks like data\n'
 	outputs = 'Ternary: ' 
 
@@ -16,7 +16,7 @@ if ',' in (inputs)
 
 
 else: # autodetection of data input for translation to ternary
-#XTEXT9XAS9XTEXT9ABCDEFJABCx
+#XTEXT9SXAS9SXTEXT9SABCDEFJABC
 """
 
 outputs = 'Data: ' 

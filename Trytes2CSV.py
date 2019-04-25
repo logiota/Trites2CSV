@@ -16,7 +16,10 @@ if ',' in (inputs) #look for ternary
 
 
 else: # autodetection of data input for translation to ternary
+#This is an example of data turnary:
 #XTEXT9SXAS9SXTEXT9SABCDEFJABC
+#Which should result in the following ASCII data:
+#TEXT AS TEXT 123456,123
 """
 
 outputs = 'Data: ' 

@@ -6,7 +6,7 @@ This will help run projects on small devices doing datalogging by reducing the p
 A csv file in a single transaction can now contain 670 double digit measurements or at least 2000 characters.
 
 This is an example of data turnary:
-XTEXT9SXAS9SXTEXT9SABCDEFJABC
+XFL9XCLAY9XCOUNTY9BFEHBAJEG9O9AEGEO
 
 Which should result in the following ASCII data:
-TEXT AS TEXT 123456,123
+FL,CLAY COUNTY,265821.57,0,15750
